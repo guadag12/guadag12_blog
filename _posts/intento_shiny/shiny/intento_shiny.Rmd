@@ -1,0 +1,30 @@
+---
+title: "intento_shiny"
+author:
+- name: Nora Jones
+  url: https://example.com/norajones
+  affiliation: Spacely Sprockets
+  affiliation_url: https://example.com/spacelysprokets
+date: "03-23-2021"
+output:
+  html_document:
+    df_print: paged
+  distill::distill_article:
+    self_contained: no
+description: "Welcome to our new blog, My Blog. We hope you enjoy \nreading what we
+  have to say!\n"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+library(shiny)
+shinyAppDir("/Users/guadalupegonzalez/Documents/GitHub/politicxsentwitteR/guadag12_blog/_posts/intento_shiny/shiny/",
+  options=list(
+    width="100%", height=550
+  )
+) 
+```
