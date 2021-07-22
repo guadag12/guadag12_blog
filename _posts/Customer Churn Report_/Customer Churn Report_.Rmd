@@ -4,7 +4,7 @@ author: "Business Science"
 date: "03-23-2021"
 output:
   html_document:
-    df_print: paged
+    theme: flatly
   distill::distill_article:
     self_contained: no
 description: "Welcome to our new blog, My Blog. We hope you enjoy \nreading what we
